@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+html, body{
+  display: grid;
+  height: 83vh;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(to right, #b0c5a4c8 0%, #a5deef 100%);
+}
+h1{
+  font-size: 3rem;  
+  color: #65c1d2;
+}
+.container{
+  height: 495px;
+  max-width: 495px;
+  width: 100%;
+  padding: 24px 29px;
+  border-radius: 6px;
+  background: #ffffffea;
+  max-height: 495px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.292);
+}
+.container .google a,
+.container .microsoft a
+{
+  font-size: 15px;
+  text-decoration: none;
+  padding-top: 4px;
+  padding-left: 20px;
+  line-height: 45px;
+  color: #fff;
+  display: block;
+  height: 55px;
+  width: 100%;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+.container .option{
+  font-size: 24px;
+  text-align: center;
+}
+.container .google i,
+.container .microsoft i{
+  padding-right: 12px;
+  font-size: 20px;
+}
+.container .microsoft a{
+  background: linear-gradient( to right,  #5d82d3 0%, #214aa3 100%);
+  margin: 20px 0 50px 0;
+}
+.container .microsoft a:hover{
+  background: linear-gradient( to left,  #4d7ada 0%, #335fbc 100%);
+  margin: 20px 0 50px 0;
+}
+.container .google a{
+  margin: 20px 0 15px 0;
+  background: linear-gradient(to right,  #e15548 0%, #c5392d 100%);
+}
+.container .google a:hover{
+  margin: 20px 0 15px 0;
+  background: linear-gradient(to left,  #f06255 0%, #a43a31 100%);
+}
